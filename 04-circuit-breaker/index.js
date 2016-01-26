@@ -28,7 +28,6 @@ function runCircuit () {
     circuit.run('http://www.google.com', (err, res) => {
       if (err) {
         return console.log('err', err)
-        return
       }
       console.log(res)
     })
